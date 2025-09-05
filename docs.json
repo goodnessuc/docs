@@ -1,68 +1,58 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "SuiByExamples",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4da2ff",
+    "light": "#4da2ff",
+    "dark": "#4da2ff"
   },
-  "favicon": "/favicon.svg",
+  "icons": {
+    "library": "lucide"
+  },
+
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "General",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introductory Starter Pack",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "introductory-starter-pack/intro-move",
+              "introductory-starter-pack/sui-60s"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Learn Sui Move Fast",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "learn-sui-move-fast/sui-15min",
+              "learn-sui-move-fast/cli-cheatsheet",
+              "learn-sui-move-fast/prod-packages"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Sui TypeScript",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "sui-typescript/ts-intro",
+              "sui-typescript/ts-advanced"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Development Projects",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "development-projects/batch-transfer",
+              "development-projects/kiosks",
+              "development-projects/launch-coin",
+              "development-projects/nfts",
+              "development-projects/wallet-evac"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Walrus Guides",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "walrus-guides/walrus-deploy",
+              "walrus-guides/walrus-ts"
             ]
           }
         ]
@@ -70,58 +60,58 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+       
+         {
+          "anchor": "Youtube Playlist",
+          "href": "https://youtube.com/playlist?list=PLwSqiyXKVkfVA5TXrPvnUXM6d07_zw8Ot&si=OGdMVmLBKLs5wV6y",
+          "icon": "youtube"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "GitHub",
+          "href": "https://github.com/goodylili/suibyexamples.com",
+          "icon": "github"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "X(Twitter)",
+          "href": "https://x.com/goodylili",
+          "icon": "twitter"
         }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+ 
+  "background": {
+    "decoration": "grid"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Sui Network",
+        "href": "https://sui.io"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Visit Sui",
+      "href": "https://docs.sui.io"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/MystenLabs/sui",
+      "discord": "https://discord.gg/sui"
     }
   }
 }
